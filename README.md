@@ -8,6 +8,7 @@
 
 # RequireMents
 ## [Android]
+- kotlin 1.4.0 or newer
 - AndroidStudio 4.0 or newer
 - gradle 6.1.1 or newer
 - paging3
