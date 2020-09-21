@@ -1,4 +1,4 @@
-package springboot.image.junseong
+package springboot.image.junseong.Model
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
@@ -7,8 +7,8 @@ import kotlinx.android.parcel.Parcelize
 data class PhotoList(
     val id:String,
     val description:String?,
-    val urls:PhotoUrls,
-    val user:PhotoUser
+    val urls: PhotoUrls,
+    val user: PhotoUser
 ):Parcelable {
     @Parcelize
     data class PhotoUrls(
