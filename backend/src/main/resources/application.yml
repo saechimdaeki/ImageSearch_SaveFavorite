@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    url: jdbc:h2:tcp://localhost/~/ImageSave;
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        show_sql: true
+        # format_sql: true
+    open-in-view: false
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2KB
+      max-file-size: 200MB
+      max-request-size: 215MB
+
+
+
+logging:
+  level:
+    org.hibernate.SQL: debug
+    #org.hibernate.type: trace
