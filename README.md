@@ -1,6 +1,6 @@
 # ImageSearch_SaveFavorite
  A full-stack project that searches for images and stores favorite pictures.
-#### 9월은 면접이 너무 많아진 관계로 천천히 진행하며 완성할 예정입니다...  
+#### 9~10월은 면접이 너무 많아진 관계로 천천히 진행하며 완성할 예정입니다...  
 ### 100% Kotlin Android+Spring Project  
 
 
